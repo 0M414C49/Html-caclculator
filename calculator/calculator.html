@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>calculator v1.0 html by @Ali</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <script src="clacc.js" type="text/jscript"></script>
+  </head>
+  <body>
+
+    <div class="calc">
+      <h1 id="demo">0</h1>
+      <table class="table">
+        <tr class="cell-1">
+          <td><button type="button" name="button" id="c1" onclick="erase()" class="size-b">AC</button></td>
+          <td><button type="button" name="button" id="c1" onclick="sign(2)" class="size-b">+/-</button></td>
+          <td><button type="button" name="button" id="c1" onclick="ba8y()" class="size-b">%</button></td>
+          <td><button type="button" name="button" id="c2" onclick="divid()" class="size-b">/</button></td>
+        </tr>
+
+        <tr class="cell-2">
+          <td><button type="button" name="button" id="s" onclick="myFunction(7)" onclick="myFunction2(7)" class="size-b">7</button></td>
+          <td><button type="button" name="button" id="s" onclick="myFunction(8)" onclick="myFunction2(8)" class="size-b">8</button></td>
+          <td><button type="button" name="button" id="s" onclick="myFunction(9)" onclick="myFunction2(9)" class="size-b">9</button></td>
+          <td><button type="button" name="button" id="c2" onclick="mult()" class="size-b">X</button></td>
+        </tr>
+
+        <tr class="cell-3">
+          <td><button type="button" name="button" id="s" onclick="myFunction(4)" onclick="myFunction2(4)" class="size-b">4</button></td>
+          <td><button type="button" name="button" id="s" onclick="myFunction(5)" onclick="myFunction2(5)" class="size-b">5</button></td>
+          <td><button type="button" name="button" id="s" onclick="myFunction(6)" onclick="myFunction2(6)" class="size-b">6</button></td>
+          <td><button type="button" name="button" id="c2" onclick="sub()" class="size-b">-</button></td>
+        </tr>
+
+        <tr class="cell-4">
+          <td><button type="button" name="button" id="s" onclick="myFunction(1)" onclick="myFunction2(1)" class="size-b">1</button></td>
+          <td><button type="button" name="button" id="s" onclick="myFunction(2)" onclick="myFunction2(2)" class="size-b">2</button></td>
+          <td><button type="button" name="button" id="s" onclick="myFunction(3)" onclick="myFunction2(3)" class="size-b">3</button></td>
+          <td><button type="button" name="button" id="c2" onclick="sum()" class="size-b">+</button></td>
+        </tr>
+
+        <tr class="cell-5">
+          <td><button type="button" name="button" id="s" onclick="myFunction(0)" class="size-b">0</button></td>
+          <td><button type="button" name="button" id="s" class="size-b">Shift</button></td>
+          <td><button type="button" name="button" id="s" onclick="myFunction(".")" onclick="myFunction2(0.9)" class="size-b">.</button></td>
+          <td><button type="button" name="button" id="c2" onclick="equal()" class="size-b">=</button></td>
+        </tr>
+
+      </table>
+
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,38 @@
+body{
+  background-color: #47476b;
+}
+
+
+.calc{
+  background-color: #333333;
+  padding: 2px;
+  margin: 300px auto;
+  width: 197px;
+
+}
+.table{
+  margin: auto;
+  width: auto;
+}
+
+.size-b{
+  width: 45px;
+  height: 45px;
+  color: #ffffff;
+  border: none;
+}
+h1{
+  padding-right: 4px;
+  float: right;
+  color: #ffffff;
+}
+#c1{
+  background-color: #4d4d4d;
+}
+
+#c2{
+  background-color: #ffa31a;
+}
+#s{
+  background-color: #8c8c8c;
+}
